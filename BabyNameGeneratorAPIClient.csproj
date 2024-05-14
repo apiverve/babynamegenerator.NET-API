@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>APIVerve.API.BabyNameGenerator</Title>
+    <Version>1.0.0</Version>
+    <Authors>APIVerve</Authors>
+    <Company>APIVerve</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageProjectUrl>https://apiverve.com/marketplace/api/babynamegenerator</PackageProjectUrl>
+    <SignAssembly>False</SignAssembly>
+    <Description>Baby Name Generator is a simple tool for generating baby names. It returns a list of baby names.</Description>
+    <RepositoryUrl>https://github.com/apiverve/babynamegenerator-NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>baby name generator; baby names; baby name generator api; baby names api; baby name generator tool; baby names tool; baby name generator software; baby names software; baby name generator service; baby names service; baby name generator library; baby names library; baby name generator sdk; baby names sdk; baby name generator code; baby names code; baby name generator script; baby names script; baby name generator program; baby names program; baby name generator application; baby names application; baby name generator app; baby names app; baby name generator tool; baby names tool; baby name generator utility; baby names utility; baby name generator helper; baby names helper; baby name generator helper tool; baby names helper tool; baby name generator helper software; baby names helper software; baby name generator helper service; baby names helper service; baby name generator helper library; baby names helper library; baby name generator helper sdk; baby names helper sdk; baby name generator helper code; baby names helper code; baby name generator helper script; baby names helper script; baby name generator helper program; baby names helper program; baby name generator helper application; baby names helper application; baby name generator helper app; baby names helper app; baby name generator helper tool; baby names helper tool; baby name generator helper utility; baby names helper utility; baby name generator helper</PackageTags>
+    <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
