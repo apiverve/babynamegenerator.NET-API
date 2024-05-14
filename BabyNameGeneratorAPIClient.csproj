@@ -1,38 +1,69 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
-    <Nullable>enable</Nullable>
+    <TargetFrameworks>net20;net35;net40;net45;netstandard2.0;netstandard2.1;net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>APIVerve.API.BabyNameGenerator</Title>
-    <Version>1.0.0</Version>
+    <Version>1.0.5</Version>
     <Authors>APIVerve</Authors>
     <Company>APIVerve</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeContentInPack>true</IncludeContentInPack>
+
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
-    <PackageProjectUrl>https://apiverve.com/marketplace/api/babynamegenerator</PackageProjectUrl>
+    <PackageProjectUrl>https://apiverve.com/?utm_source=nuget</PackageProjectUrl>
     <SignAssembly>False</SignAssembly>
     <Description>Baby Name Generator is a simple tool for generating baby names. It returns a list of baby names.</Description>
-    <RepositoryUrl>https://github.com/apiverve/babynamegenerator-NET</RepositoryUrl>
+    <RepositoryUrl>https://github.com/apiverve/babynamegenerator.NET-API</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>baby name generator; baby names; baby name generator api; baby names api; baby name generator tool; baby names tool; baby name generator software; baby names software; baby name generator service; baby names service; baby name generator library; baby names library; baby name generator sdk; baby names sdk; baby name generator code; baby names code; baby name generator script; baby names script; baby name generator program; baby names program; baby name generator application; baby names application; baby name generator app; baby names app; baby name generator tool; baby names tool; baby name generator utility; baby names utility; baby name generator helper; baby names helper; baby name generator helper tool; baby names helper tool; baby name generator helper software; baby names helper software; baby name generator helper service; baby names helper service; baby name generator helper library; baby names helper library; baby name generator helper sdk; baby names helper sdk; baby name generator helper code; baby names helper code; baby name generator helper script; baby names helper script; baby name generator helper program; baby names helper program; baby name generator helper application; baby names helper application; baby name generator helper app; baby names helper app; baby name generator helper tool; baby names helper tool; baby name generator helper utility; baby names helper utility; baby name generator helper</PackageTags>
+    <PackageTags>baby name generator; baby names; baby name generator api; baby names api; baby name generator tool</PackageTags>
     <Copyright>©2024 APIVerve. All Rights Reserved</Copyright>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PackageIcon>favicon@128.png</PackageIcon>
+    <BaseOutputPath>.\bin</BaseOutputPath>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <PackageId>APIVerve.API.BabyNameGenerator</PackageId>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <None Remove="LICENSE" />
+    <None Remove="Readme.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="LICENSE">
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Media\favicon@128.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Update="Readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
