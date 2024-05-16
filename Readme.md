@@ -83,7 +83,7 @@ var response = apiClient.Execute(queryOptions);
 if(response.error != null) {
 	Console.WriteLine(response.error);
 } else {
-    var jsonResponse = JsonConvert.SerializeObject(response.data, Newtonsoft.Json.Formatting.Indented);
+    var jsonResponse = JsonConvert.SerializeObject(response, Newtonsoft.Json.Formatting.Indented);
     Console.WriteLine(jsonResponse);
 }
 ```
@@ -98,54 +98,54 @@ if(response.error != null) {
     "count": 10,
     "names": [
       {
-        "firstName": "Natalie",
-        "middleName": "Kay",
-        "fullName": "Natalie Kay"
+        "firstName": "Jessie",
+        "middleName": "June",
+        "fullName": "Jessie June"
       },
       {
-        "firstName": "Rosa",
-        "middleName": "Theresa",
-        "fullName": "Rosa Theresa"
-      },
-      {
-        "firstName": "Mae",
-        "middleName": "Ellen",
-        "fullName": "Mae Ellen"
-      },
-      {
-        "firstName": "Lucia",
-        "middleName": "Toni",
-        "fullName": "Lucia Toni"
+        "firstName": "Katherine",
+        "middleName": "Patty",
+        "fullName": "Katherine Patty"
       },
       {
         "firstName": "Carrie",
-        "middleName": "Bonnie",
-        "fullName": "Carrie Bonnie"
+        "middleName": "Leona",
+        "fullName": "Carrie Leona"
       },
       {
-        "firstName": "Samantha",
-        "middleName": "Roberta",
-        "fullName": "Samantha Roberta"
+        "firstName": "Lola",
+        "middleName": "Harriet",
+        "fullName": "Lola Harriet"
       },
       {
-        "firstName": "Gwendolyn",
-        "middleName": "Constance",
-        "fullName": "Gwendolyn Constance"
+        "firstName": "Myra",
+        "middleName": "Julie",
+        "fullName": "Myra Julie"
       },
       {
-        "firstName": "Flora",
-        "middleName": "Opal",
-        "fullName": "Flora Opal"
+        "firstName": "Guadalupe",
+        "middleName": "Grace",
+        "fullName": "Guadalupe Grace"
       },
       {
-        "firstName": "Terry",
-        "middleName": "Linda",
-        "fullName": "Terry Linda"
+        "firstName": "Rosie",
+        "middleName": "Anne",
+        "fullName": "Rosie Anne"
       },
       {
-        "firstName": "Clara",
-        "middleName": "Lora",
-        "fullName": "Clara Lora"
+        "firstName": "Leah",
+        "middleName": "Valerie",
+        "fullName": "Leah Valerie"
+      },
+      {
+        "firstName": "Norma",
+        "middleName": "Gina",
+        "fullName": "Norma Gina"
+      },
+      {
+        "firstName": "Lucia",
+        "middleName": "Naomi",
+        "fullName": "Lucia Naomi"
       }
     ]
   }
