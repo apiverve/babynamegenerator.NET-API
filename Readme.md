@@ -95,57 +95,22 @@ if(response.error != null) {
   "status": "ok",
   "error": null,
   "data": {
-    "count": 10,
+    "count": 3,
     "names": [
       {
-        "firstName": "Jessie",
-        "middleName": "June",
-        "fullName": "Jessie June"
+        "firstName": "Linda",
+        "middleName": "Ruth",
+        "fullName": "Linda Ruth"
       },
       {
-        "firstName": "Katherine",
-        "middleName": "Patty",
-        "fullName": "Katherine Patty"
+        "firstName": "Megan",
+        "middleName": "Maureen",
+        "fullName": "Megan Maureen"
       },
       {
-        "firstName": "Carrie",
-        "middleName": "Leona",
-        "fullName": "Carrie Leona"
-      },
-      {
-        "firstName": "Lola",
-        "middleName": "Harriet",
-        "fullName": "Lola Harriet"
-      },
-      {
-        "firstName": "Myra",
-        "middleName": "Julie",
-        "fullName": "Myra Julie"
-      },
-      {
-        "firstName": "Guadalupe",
-        "middleName": "Grace",
-        "fullName": "Guadalupe Grace"
-      },
-      {
-        "firstName": "Rosie",
-        "middleName": "Anne",
-        "fullName": "Rosie Anne"
-      },
-      {
-        "firstName": "Leah",
-        "middleName": "Valerie",
-        "fullName": "Leah Valerie"
-      },
-      {
-        "firstName": "Norma",
-        "middleName": "Gina",
-        "fullName": "Norma Gina"
-      },
-      {
-        "firstName": "Lucia",
-        "middleName": "Naomi",
-        "fullName": "Lucia Naomi"
+        "firstName": "Jill",
+        "middleName": "Jane",
+        "fullName": "Jill Jane"
       }
     ]
   }
