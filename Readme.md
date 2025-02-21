@@ -32,9 +32,9 @@ From within Visual Studio:
 
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
-3. Click on Manage NuGet Packages...
+3. Click on Manage NuGet Packages..
 4. Click on the Browse tab and search for "APIVerve.API.BabyNameGenerator".
-5. Click on the APIVerve.API.BabyNameGenerator package, select the appropriate version in the right-tab and click Install.
+5. Click on the APIVerve.API.BabyNameGenerator package, click Install.
 
 
 ---
@@ -98,19 +98,19 @@ if(response.error != null) {
     "count": 3,
     "names": [
       {
-        "firstName": "Joanne",
-        "middleName": "Christine",
-        "fullName": "Joanne Christine"
+        "firstName": "Gladys",
+        "middleName": "Emily",
+        "fullName": "Gladys Emily"
       },
       {
-        "firstName": "Lorraine",
-        "middleName": "Ethel",
-        "fullName": "Lorraine Ethel"
+        "firstName": "Sandra",
+        "middleName": "Tasha",
+        "fullName": "Sandra Tasha"
       },
       {
-        "firstName": "Roberta",
-        "middleName": "Alison",
-        "fullName": "Roberta Alison"
+        "firstName": "Patricia",
+        "middleName": "Rosemary",
+        "fullName": "Patricia Rosemary"
       }
     ]
   },
@@ -140,7 +140,7 @@ All usage of the APIVerve website, API, and services is subject to the [APIVerve
 ## License
 Licensed under the The MIT License (MIT)
 
-Copyright (&copy;) 2024 APIVerve, and Evlar LLC
+Copyright (&copy;) 2025 APIVerve, and EvlarSoft LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
