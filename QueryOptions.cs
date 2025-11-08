@@ -6,6 +6,6 @@ namespace APIVerve
 {
     public class BabyNameGeneratorQueryOptions {
 public string gender { get; set; }
-public integer count { get; set; }
+public int count { get; set; }
 }
 }
